@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Parses the current URL to get the path and redirects to the index.html with the path as a query string
+    var path = window.location.pathname;
+    document.location.href = '/index.html?path=' + path;
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
