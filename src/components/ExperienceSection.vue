@@ -58,4 +58,12 @@ const logos = [
   object-fit: contain;
   filter: grayscale(100%);
 }
+
+@media (max-width: 640px) {
+  .company-logo {
+    flex-basis: 50%;
+    min-width: 0;
+    height: 100px;
+  }
+}
 </style>

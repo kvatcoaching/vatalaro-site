@@ -89,6 +89,11 @@
     padding-bottom: 80px;
   }
 
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
   .hero-ctas {
     flex-direction: column;
     align-items: flex-start;

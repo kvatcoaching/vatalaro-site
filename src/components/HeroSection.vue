@@ -95,7 +95,8 @@
   }
 
   .contact-button {
-    width: auto; 
+    width: auto;
+    min-width: auto;
     padding: 15px 20px; 
   }
 }

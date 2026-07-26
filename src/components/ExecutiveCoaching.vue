@@ -359,6 +359,11 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
+
+  .high-achieving-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }
 </style>
 
