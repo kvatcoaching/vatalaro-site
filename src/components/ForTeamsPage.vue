@@ -220,5 +220,8 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .workshop-image img {
+    width: 90%;
+  }
 }
 </style>
